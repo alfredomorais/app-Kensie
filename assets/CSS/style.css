@@ -1,0 +1,86 @@
+body,head,img,h1,h2,main,section,p,div,input,textarea,button,label,footer,hr{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eeeeee;
+}
+header{
+    background-color: #04133d;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+
+}
+header img{
+    width: 150pix;
+
+}
+header h1{
+color: #fff;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500pix;
+ 
+}
+section{
+    background-color: #fff;
+    box-shadow: 5pix 5pix 5pix #808080 ;
+    padding: 30pix;
+    width: 600pix;
+    color: #808080;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+
+
+}
+section h2{
+    font-weight: 400;
+
+}
+section p{
+    margin: 10pix;
+
+}
+.text-left{
+    text-align: left;
+}
+section label{
+    display: none;
+
+}
+section textarea{
+    padding: 10pix;
+    width: 100%;
+    height: 150pix;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 150pix;
+    min-height: 150pix;
+}
+select button{
+    background-color: #1480fa;
+    color:#fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 10pix;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10pix;
+    border-radius: 5pix;
+    
+    cursor: pointer;
+
+
+}
+footer{
+    height: 400pix;
+    background-image: url();
+
+}
